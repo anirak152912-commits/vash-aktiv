@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог недвижимости - Ваш Актив</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header (same as index.html) -->
+    
+    <section class="catalog-hero">
+        <div class="container">
+            <h1>Каталог недвижимости</h1>
+            <p>Найдите свой идеальный дом в Кыргызстане</p>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <div class="catalog-content">
+                <!-- Filters Sidebar -->
+                <aside class="filters-sidebar">
+                    <h3>Фильтры</h3>
+                    <form id="catalog-filters">
+                        <!-- Filter inputs similar to main search -->
+                    </form>
+                </aside>
+
+                <!-- Properties Grid -->
+                <main class="properties-main">
+                    <div class="catalog-header">
+                        <div class="results-count">
+                            Найдено объектов: <span id="results-count">0</span>
+                        </div>
+                        <div class="sort-options">
+                            <select id="sort-by">
+                                <option value="newest">Сначала новые</option>
+                                <option value="price_asc">Цена по возрастанию</option>
+                                <option value="price_desc">Цена по убыванию</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="properties-grid" id="catalog-properties">
+                        <!-- Properties loaded from CRM -->
+                    </div>
+                    <div class="pagination" id="pagination">
+                        <!-- Pagination controls -->
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+
+    <script src="js/catalog.js"></script>
+</body>
+</html>

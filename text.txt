@@ -1,0 +1,24 @@
+your-active-realestate/
+│
+├── index.html
+├── catalog.html
+├── services.html
+├── about.html
+├── contacts.html
+├── favorites.html
+│
+├── css/
+│   ├── style.css
+│   └── responsive.css
+│
+├── js/
+│   ├── main.js
+│   ├── catalog.js
+│   └── favorites.js
+│
+├── images/
+│   ├── logo.png
+│   ├── team/
+│   └── objects/
+│
+└── README.md
